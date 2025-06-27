@@ -21,7 +21,7 @@ public partial class MainPage : ContentPage
         _messages = new ObservableCollection<ChatMessage>();
 
         // Firebase bağlantısı - kendi Firebase URL'nizi buraya yazın
-        _firebase = new FirebaseClient("https://message-maui-default-rtdb.firebaseio.com/");
+        _firebase = new FirebaseClient("https://your-database.firebaseio.com/");
 
         Build();
         StartListeningToMessages();
